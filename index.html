@@ -507,8 +507,8 @@
     <div class="footer-links">
       <div class="footer-col">
         <h4>CONTACT</h4>
-        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener">WhatsApp অর্ডার</a>
-        <a href="https://facebook.com/yourpage" target="_blank" rel="noopener">Facebook Page</a>
+        <a href="https://wa.me/8801352295527" target="_blank" rel="noopener">WhatsApp অর্ডার</a>
+        <a href="https://facebook.com/bishalgadget" target="_blank" rel="noopener">Facebook Page</a>
       </div>
       <div class="footer-col">
         <h4>CATEGORY</h4>
@@ -589,7 +589,7 @@ const products = [
     id: 'awei-pa92',
     name: 'Awei PA92 Power Bank',
     category: 'Power Bank',
-    price: 1580,
+    price: 1550,
     warranty: '৬ মাসের অফিশিয়াল ওয়ারেন্টি',
     blurb: '20000mAh ক্যাপাসিটির ম্যাট বডি পাওয়ার ব্যাংক, বিমানে বহনযোগ্য।',
     image: 'images/Awei_PA92_power_bank.jpg',
@@ -628,7 +628,7 @@ const products = [
     id: 'jysuper-2570',
     name: 'Jysuper 2570 Fan',
     category: 'Fan',
-    price: 1790,
+    price: 2090,
     warranty: '৭ দিনের রিপ্লেসমেন্ট গ্যারান্টি',
     blurb: 'সাদা ও RGB লাইটসহ 8000mAh ব্যাটারির স্ট্যান্ড ফ্যান, ৪ স্পিড মোড।',
     image: 'images/Jysuper_2570_Fan.jpg',
@@ -651,7 +651,7 @@ const products = [
     id: 'jysuper-2218',
     name: 'Jysuper 2218 Fan',
     category: 'Fan',
-    price: 990,
+    price: 1090,
     warranty: '৭ দিনের রিপ্লেসমেন্ট গ্যারান্টি',
     blurb: 'হুক সিস্টেমসহ পোর্টেবল মিনি ফ্যান, ব্যাগে নিয়ে ঘুরুন যেকোনো জায়গায়।',
     image: 'images/Jysuper_2218_Fan.jpg',
@@ -786,8 +786,8 @@ function openModal(p){
   modalPrice.textContent = fmtPrice(p.price);
   modalWarranty.textContent = p.warranty;
   modalSpecs.innerHTML = p.specs.map(s => `<li>${s}</li>`).join('');
-  modalOrder.href = `https://wa.me/8801XXXXXXXXX?text=${encodeURIComponent('আসসালামু আলাইকুম, আমি ' + p.name + ' (' + fmtPrice(p.price) + ') অর্ডার করতে চাই।')}`;
-  modalFb.href = 'https://facebook.com/yourpage';
+  modalOrder.href = `https://wa.me/8801352295527?text=${encodeURIComponent('আসসালামু আলাইকুম, আমি ' + p.name + ' (' + fmtPrice(p.price) + ') অর্ডার করতে চাই।')}`;
+  modalFb.href = 'https://facebook.com/bishalgadget';
   overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
