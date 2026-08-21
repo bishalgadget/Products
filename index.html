@@ -508,7 +508,7 @@
       <div class="footer-col">
         <h4>CONTACT</h4>
         <a href="https://wa.me/8801352295527" target="_blank" rel="noopener">WhatsApp অর্ডার</a>
-        <a href="https://facebook.com/bishalgadget" target="_blank" rel="noopener">Facebook Page</a>
+        <a href="https://facebook.com/bishalgadget/" target="_blank" rel="noopener">Facebook Page</a>
       </div>
       <div class="footer-col">
         <h4>CATEGORY</h4>
@@ -787,7 +787,7 @@ function openModal(p){
   modalWarranty.textContent = p.warranty;
   modalSpecs.innerHTML = p.specs.map(s => `<li>${s}</li>`).join('');
   modalOrder.href = `https://wa.me/8801352295527?text=${encodeURIComponent('আসসালামু আলাইকুম, আমি ' + p.name + ' (' + fmtPrice(p.price) + ') অর্ডার করতে চাই।')}`;
-  modalFb.href = 'https://facebook.com/bishalgadget';
+  modalFb.href = 'https://facebook.com/bishalgadget/';
   overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
